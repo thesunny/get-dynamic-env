@@ -1,6 +1,6 @@
 {
   "name": "@thesunny/get-dynamic-env",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "author": "Sunny Hirai <thesunny@gmail.com>",
   "license": "MIT",
   "main": ".dist/src/index.js",
