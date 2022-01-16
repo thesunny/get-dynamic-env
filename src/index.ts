@@ -24,7 +24,7 @@
  * The value `process.env` either won't exist or be an empty object.
  */
 export function getDynamicEnv<T extends string>(
-  processEnv: Record<string, string>,
+  processEnv: Record<string, string | undefined>,
   envNames: T[]
 ): Record<T, string> {
   const env: Record<T, string> = {} as Record<T, string>
